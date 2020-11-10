@@ -32,7 +32,7 @@ function draw(){
   }
 
 
-  
+
 }
 
 
@@ -40,12 +40,12 @@ function draw(){
 
 function title(){
   background(0);
-  textSize(80);
+  textSize(10);
   fill(255);
   textAlign(CENTER);
   text('ZA WARUDO',w/2,h/5);
   text('click anywhere to start',width/2,h/2);
-  textSize(20);
+  textSize(10);
 
 }
 
@@ -79,7 +79,7 @@ function youWin(){
   stroke(255);
   text('ROADA ROLLA DA',100,100);
   text('click anywhere to re-start',70,300);
-  textSize(20);
+  textSize(10);
 }
 
 function youWinMouseClicked(){
